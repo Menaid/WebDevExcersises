@@ -1,0 +1,60 @@
+h1 {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: blueviolet;
+}
+
+#minKnapp  {
+    border-radius: 15px;
+    font-size: large;
+    background-color: wheat;
+}
+
+#minKnapp:hover {
+    background-color: cyan;
+    box-shadow: 5px 5px 20px rgba(20, 180, 50, 0.9);
+}
+
+#resetKnapp {
+    background-color: chartreuse;
+    font-size: x-large;
+}
+
+#resetKnapp:hover {
+    background-color: rebeccapurple;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    color: #245f24;
+}
+
+.counter {
+    color: red;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#color-info {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}

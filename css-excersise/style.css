@@ -1,0 +1,139 @@
+﻿
+
+.table-wrapper {
+    border: solid 5px orange;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+#family-table {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    border: dotted 3px navy;
+    border-radius: 20px;
+}
+
+
+.photoRam img.thumbnail {
+    border-radius: 10px;
+    border: 3px solid #090;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    transition: all 0.3s ease-in-out;
+}
+
+.photoRam img.thumbnail:hover {
+    transform: scale(1.1) rotate(15deg);
+    border-color: turquoise;
+    box-shadow: 5px 3px 8px 16px rgba(0, 100, 200, 0.9);
+}
+
+.thumbnail {
+    width: 70%;
+    height: auto;
+}
+
+
+#family-table td {
+    width: 33.33%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);
+}
+
+
+#excersise-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    border: 3px solid #ddd;
+}
+
+    #excersise-table th {
+        background-color: cornflowerblue;
+        color: burlywood;
+        border: 3px solid #ddd;
+        font-family: cursive;
+        padding: 20px;
+        font-size: medium;
+    }
+
+    #excersise-table td {
+        background-color: red;
+        color: white;
+        padding: 20px;
+        border: 2px solid #006400;
+        font-family: sans-serif;
+    }
+
+    #excersise-table tr:hover td {
+        background-color: #333;
+        color: #00ff7f;
+    }
+
+
+article {
+    border: double;
+    border-color: orange;
+    padding: 20px;
+    display: inline-block;
+}
+
+article {
+    border: double;
+    border-color: orange;
+    padding: 20px;
+    display: inline-block;
+}
+
+.inArticle {
+    font-family: monospace;
+    font-size: x-large;
+    line-height: 1.6;
+    color: blueviolet;
+    margin-bottom: 10px;
+}
+
+#articleHeading {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #00ff7f;
+}
+
+#author {
+    background-color: yellow;
+    display: inline-block;
+    color: violet;
+}
+
+#pubDate {
+    font-family: revert;
+    font-palette: dark;
+    font-size: unset;
+    color: #00bfff;
+    border: solid;
+    width: fit-content;
+    background-color: black;
+}
+
+.form1 {
+    padding: 50px;
+    display: inline-block;
+    border: dotted;
+    border-color: magenta;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.form-group {
+    font-family: cursive;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
