@@ -1,0 +1,8 @@
+var People = {
+    person: [
+        {id: 1, name: "Menaid", Age: 36}
+        {id: 2, name: "Dan", Age: 40}
+    ]
+}
+    
+    

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #button {
+            display: inline;
+            width: 150px;
+            margin: 10px;
+            padding: 10px;
+            background-color: #0074D9;
+            color: #FFFFFF;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Users!</h1>
+    <div id="users"></div>
+    <div id="messages"></div>
+    <form action="">
+        <input type="text" id="title">
+        <input type="text" id="body">
+        <input type="button" id="button" value="POST" onclick="createPost()">
+    </form>
+    <script src="fetch.js"></script>
+</body>
+</html>
