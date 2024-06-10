@@ -160,5 +160,5 @@ document.addEventListener("DOMContentLoaded", () => {
         colorInfo.textContent = "Du klickade på blå färg";
         colorInfo.style.color = "blue";
     })
-
 })
+
